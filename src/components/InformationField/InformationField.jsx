@@ -1,5 +1,4 @@
-import react, {Component} from 'react'
-import {toast} from 'react-toastify'
+import {Component} from 'react'
 import ErrorMessage from '../ErrorMessage'
 import ResolvedList from '../ResolvedList'
 import Pending from '../Pending'
@@ -35,7 +34,7 @@ class InformationField extends Component{
     
     render(){
         console.log(this.state.error)
-        const {pokemon, error, status} = this.state
+        const {error, status} = this.state
 
         if(status === "idle"){
             return <p>Для результата поиска введите имя</p>

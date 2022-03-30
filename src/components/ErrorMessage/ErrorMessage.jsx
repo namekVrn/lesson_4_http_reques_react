@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react'
 import errorImg from '../../img/error.jpg'
 import '../ErrorMessage/ErrorMessage.css'
 function ErrorMessage({message}){

@@ -1,4 +1,4 @@
-import react, {Component} from 'react'
+import {Component} from 'react'
 import '../Form/Form.css'
 import {toast} from 'react-toastify'
 import {ReactComponent as ZoomIcon} from "../../img/zoom.svg"

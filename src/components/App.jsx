@@ -1,6 +1,6 @@
-import react,{Component} from 'react'
+import {Component} from 'react'
 import InformationField from './InformationField'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Form from './Form'
 import './AppStyle.css'
